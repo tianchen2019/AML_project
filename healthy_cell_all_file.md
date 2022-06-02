@@ -37,7 +37,8 @@ healthy去除批次的数据:
 2. 髓系细胞单独去除批次:
 容器集群
 ~/AML_project/step0_healthy_analysis/healthy_human/trajectory/mye_movebatch.r
-![cbb9466e72772aa982cc5f45b85dbfe7.png](en-resource://database/852:1)
+![5d6d6dadc495cd86df036395d8c3d57](https://user-images.githubusercontent.com/46451175/171596058-5d1d84de-7065-49d4-8bdf-c8e4374cb6bb.png)
+
 文件: 
 ~/AML_project/step0_healthy_analysis/healthy_human/trajectory/mye_integratedfinal.rdata
 3. 髓系去除批次后的细胞，建立archR proj，且添加降维信息按照去除批次的坐标，同时加上了trajectory坐标（monocyte太多，选取1000 cells）：
